@@ -1,0 +1,51 @@
+/********************************/
+/*  Stylesheet para index.html  */
+/********************************/
+
+
+@font-face {
+    font-family: 'Encabezado';
+    src: url('../fonts/SuperCar-ExpMLDemo.otf') format('opentype');
+}
+
+body{
+    background-color: #66bebe;
+}
+
+/******************** FONTS ********************/
+h1 {font-family: Encabezado;}
+
+/******************* COLORS ********************/
+.carousel-caption {--bs-bg-opacity: .5;}
+.accordion-button-rb:not(.collapsed) {background-color: rgb(5, 0, 154) !important;}
+.accordion-button-mb:not(.collapsed) {background-color: rgb(5, 189, 196) !important;}
+.accordion-button-fr:not(.collapsed) {background-color: rgb(201, 3, 3) !important;}
+.accordion-button-am:not(.collapsed) {background-color: rgb(31, 69, 41) !important;}
+.accordion-button-mc:not(.collapsed) {background-color: rgb(255, 132, 0) !important;}
+.accordion-button-al:not(.collapsed) {background-color: rgb(255, 113, 201) !important;}
+.accordion-button-wm:not(.collapsed) {background-color: rgb(0, 98, 255) !important;}
+.accordion-button-vcrb:not(.collapsed) {background-color: rgb(86, 120, 176) !important;}
+.accordion-button-ks:not(.collapsed) {background-color: rgb(18, 188, 9) !important;}
+.accordion-button-hs:not(.collapsed) {background-color: rgb(178, 177, 177) !important;}
+
+
+/******************* SIZES ********************/
+
+
+
+/******************* IMAGES ********************/
+#logo {height: 50px;}
+
+#hero {
+    background-image: url(../img/F1-header.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+/******************* OTHER FIXES ********************/
+
+.form-text{
+    visibility: hidden;
+}
+
+
