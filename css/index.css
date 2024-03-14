@@ -31,8 +31,32 @@ h1 {font-family: Encabezado;}
 
 /******************* SIZES ********************/
 
+@media screen and (width < 900px){
+    h1{
+        size: 1.5em;
+    }
+    body, html {
+        height: 100%;
+    }
+    #wrapper {
+        min-height: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    main {
+        flex: 1;
+    }
+    /* Adjustments for small devices */
+    @media (max-width: 767px) {
+        .vh-100 {
+            height: 100vh !important;
+        }
+    }
+}
 
-
+.carousel-caption{
+    max-height: 90%;
+}
 /******************* IMAGES ********************/
 #logo {height: 50px;}
 
@@ -47,5 +71,10 @@ h1 {font-family: Encabezado;}
 .form-text{
     visibility: hidden;
 }
+
+#contact{
+    margin: auto 20%;
+}
+
 
 
