@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="./css/index.css">
     <link rel="shortcut icon" href="./img/favicon.png" type="image/x-icon">
 </head>
-<body>
+<body class="col-12 col-md-12 col-xxl-12">
 
     <!--############### NAVIGATION BAR ###############-->
     <nav class="navbar navbar-expand-lg bg-danger sticky-top">
@@ -32,9 +32,6 @@
                         <a class="nav-link text-white" href="#circuits">Circuits</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-white" href="#history">History</a>
-                    </li>
-                    <li class="nav-item">
                         <a class="nav-link text-white" href="#funfacts">Fun Facts</a>
                     </li>
                     <li class="nav-item">
@@ -48,14 +45,13 @@
     <div id="wrapper" class="container">
         <!--############### HERO SECTION ###############-->
         <header id="hero" class="vh-100 d-flex justify-content-center align-items-end">
-            <button class="btn btn-secondary mb-3 me-1">Who dares?</button>
-            <button class="btn btn-secondary mb-3">Another action</button>
+            
         </header>
 
         <main>
             <!--############### INTRODUCTION ###############-->
             <section id="intro" class="p-5 bg-secondary-subtle mt-2 mb-2">
-                <h1 class="text-center mb-5 text-danger display-3 fw-bold Encabezado">Introduction</h1>
+                <h1 class="text-start mb-5 text-danger fw-bold Encabezado">Introduction</h1>
                 <!-- GRID 2 COLUMNS -->
                 <div class="container">
                     <div class="row g-5">
@@ -980,6 +976,38 @@
                 </div>
             </section>
 
+            <!--############### FUN FACTS ###############-->
+            <section id="fun-facts" class="p-5 bg-secondary-subtle mt-2 mb-2">
+                <h1 class="text-start mb-5 text-danger fw-bold Encabezado">Fun facts</h1>
+                <!-- GRID 2 COLUMNS -->
+                <div class="container">
+                    <div class="row g-5">
+                        <!--##### COLUMN 1 #####-->
+                        <div class="col-12 col-md-6 fw-bold pt-5">
+                            <h2 class="text-start mb-5 text-danger Encabezado">DRS</h2>
+                            The Drag Reduction System, better known as DRS, is a mobile device that Formula 1 introduced in 2011 in order to reduce the aerodynamic load of the car and increase speed to encourage overtaking.<br>
+                            This system reduces the load on the wing, allowing the driver to benefit from less aerodynamic load and less drag, as the rear part rises and the car gains speed.
+                        </div>
+                        <!--##### COLUMN 2 #####-->
+                        <div class="col-12 col-md-6">
+                            <img class="w-100" src="./img/fun-facts/DRS.webp" alt="">
+                        </div>
+                    </div>
+                    <br>
+                    <div class="row g-5">
+                        <!--##### COLUMN 1 #####-->
+                        <div class="col-12 col-md-6">
+                            <img class="w-100" src="./img/fun-facts/pit-stop.jpg" alt="">
+                        </div>
+                        <!--##### COLUMN 2 #####-->
+                        <div class="col-12 col-md-6 fw-bold pt-5">
+                            <h2 class="text-start mb-5 text-danger Encabezado">Pit Stops</h2>
+                            In Formula 1, vehicles often make pit stops to change tires, and in the past, also to refuel. Teams often make minor adjustments to the front and rear wings, and sometimes replace the front nose piece of the vehicle if it's broken. The typical pit stop strategy varies between one and three pit stops, depending on the circuit. The time the vehicle spends between one stop and another is usually called stints.
+                        </div>
+                    </div>
+                </div>
+            </section>
+
             <!--############### CONTACT ###############-->
             <section id="contact">
                 <div class="containter">
@@ -1006,6 +1034,9 @@
                                         <option value="3">Sevilla</option>
                                     </select>
                                 </div>
+                                <div class="md-3 pb-3">
+                                    <input type="button" class="btn btn-danger" value="Enviar"></div>
+                                </div>
                             </form>
                     </div>
                 </div>
@@ -1017,15 +1048,15 @@
         <footer class="bg-danger text-white p-5">
             <div class="container">
                 <div class="row g-5">
-                    <div class="col-12 col-md-6 col-lg-3">
+                    <div class="col-12 col-md-6 col-lg-6">
                         <p>*Datos recogidos del 3/3/2024, no están actualizados a la fecha actual </p>
                     </div>
-                    <div class="col-12 col-md-6 col-lg-3">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit rerum asperiores numquam voluptas cum veritatis nobis facilis quas porro doloribus illo ab aperiam, recusandae molestias repellendus, sit quo itaque sint.
+                    <div class="col-12 col-md-6 col-lg-6">
+                        *Fotos recogidas de: <br>
+                        Página oficial de la F1: https://www.formula1.com/ <br>
+                        Periódico SoyMotor: https://soymotor.com/
                     </div>
-                    <div class="col-12 col-md-12 col-lg-6">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit rerum asperiores numquam voluptas cum veritatis nobis facilis quas porro doloribus illo ab aperiam, recusandae molestias repellendus, sit quo itaque sint. Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit rerum asperiores numquam voluptas cum veritatis nobis facilis quas porro doloribus illo ab aperiam, recusandae molestias repellendus, sit quo itaque sint.
-                    </div>
+                    
                 </div>
             </div>
         </footer>
