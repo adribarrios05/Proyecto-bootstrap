@@ -34,7 +34,7 @@ h1 {font-family: Encabezado;}
 @media screen and (max-width: 900px){
     h1, h2{
         text-align: center;
-        size: 1em;
+        font-size: 118% !important;
     }
     body, html {
         max-width: 100%;
